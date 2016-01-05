@@ -1,1 +1,2 @@
-web: node node_modules/gulp/bin/gulp build.prod
+web: npm run build.prod
+web: harp server --port $PORT

@@ -1,2 +1,2 @@
 web: npm run build.prod
-web: harp server --port $PORT
+web: harp server dist/prod --port $PORT

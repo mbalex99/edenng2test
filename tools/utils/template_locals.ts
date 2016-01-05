@@ -1,4 +1,4 @@
-import {APP_BASE, APP_DEST, APP_ROOT, APP_TITLE, SYSTEM_CONFIG, VERSION, HOT_LOADER_PORT, BOOTSTRAP_MODULE} from '../config';
+import {APP_BASE, APP_DEST, APP_ROOT, APP_TITLE, SYSTEM_CONFIG, VERSION, HOT_LOADER_PORT, BOOTSTRAP_MODULE, ENV} from '../config';
 
 // TODO: Add an interface to register more template locals.
 export function templateLocals() {
@@ -10,6 +10,7 @@ export function templateLocals() {
     SYSTEM_CONFIG,
     VERSION,
     BOOTSTRAP_MODULE,
-    HOT_LOADER_PORT
+    HOT_LOADER_PORT,
+    ENV
   };
 }
